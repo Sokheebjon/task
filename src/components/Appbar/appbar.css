@@ -1,0 +1,52 @@
+.btn {
+    color: #262626 !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 16px !important;
+    border: none !important;
+    display: flex !important;
+
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.btn span {
+    margin: auto 0;
+}
+
+.dropdown-toggle::after {
+    content: none !important;
+}
+
+.img-responsive {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F8F8F8;
+    padding: 8px;
+    /*margin-left: 16px;*/
+}
+
+.img-responsive img {
+    margin: auto;
+}
+
+.dropdown-item .dropdown-link {
+    color: black;
+
+}
+
+.dropdown-item .dropdown-link:hover {
+    text-decoration: none;
+    color: green;
+}
+
+.dropdown-item:active, .dropdown-item:hover {
+    background: none !important;
+}
+
+.menuButton {
+    margin-left: -30px;
+}
